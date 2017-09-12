@@ -1,4 +1,4 @@
-some: yaml
+script: echo hooray
 notifications:
   webhooks:
     urls:
