@@ -1,0 +1,10 @@
+some: yaml
+notifications:
+  webhooks:
+    urls:
+    - 'https://webhook.atomist.com/travis/teams/T6PN80EKD'
+    on_cancel: always
+    on_error: always
+    on_start: always
+    on_failure: always
+    on_success: always

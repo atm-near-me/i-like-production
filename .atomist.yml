@@ -1,0 +1,32 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-m.7"
+editor:
+  name: "AddJenkinsfileWebhookEditor"
+  group: "atomist"
+  artifact: "enrollment-rugs"
+  version: "0.3.55"
+  origin:
+    repo: "git@github.com:atomisthq/enrollment-rugs"
+    branch: "master"
+    sha: "862409c*"
+  parameters:
+    - "atomistWebhookUrl": "https://webhook.atomist.com//jenkins/teams/T6PN80EKD"
+
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-m.7"
+editor:
+  name: "AddTravisWebhookEditor"
+  group: "atomist"
+  artifact: "enrollment-rugs"
+  version: "0.3.55"
+  origin:
+    repo: "git@github.com:atomisthq/enrollment-rugs"
+    branch: "master"
+    sha: "862409c*"
+  parameters:
+    - "atomistWebhookUrl": "https://webhook.atomist.com/travis/teams/T6PN80EKD"
+
