@@ -2,7 +2,7 @@ script: echo hooray
 notifications:
   webhooks:
     urls:
-    - 'https://webhook.atomist.com/travis/teams/T6PN80EKD'
+    - 'https://webhook-staging.atomist.services/atomist/travis/teams/T6PN80EKD'
     on_cancel: always
     on_error: always
     on_start: always
